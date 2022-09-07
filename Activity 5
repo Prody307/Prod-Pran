@@ -1,0 +1,6 @@
+SEND 'Please enter the firstNumber' TO DISPLAY
+RECIEVE firstNumber FROM INPUT
+SEND 'Please enter the secondNumber' TO DISPLAY
+RECIEVE secondNumber FROM INPUT
+SET thirdNumber TO firstNumber * secondNumber
+SEND thirdNumber TO DISPLAY
