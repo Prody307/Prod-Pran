@@ -1,0 +1,12 @@
+SET correctNumber TO 3
+SEND "Please enter a guessedNumber" TO DISPLAY
+RECEIVE guessedNumber FROM KEYBOARD
+If guess >10 THEN
+SEND 'OOPS! too high" TO DISPLAY
+ELSE If guess = correctNumber THEN
+SEND "You guessed correct!" TO DISPLAY
+ELSE If guess != correctNumber THEN
+SEND "Sorry, wrong number" TO DISPLAY
+END If 
+END If 
+END If
